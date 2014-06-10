@@ -40,7 +40,7 @@ class HttpBasicAuth extends \Slim\Middleware {
             $pass = $environment["PHP_AUTH_PW"];
 
             /* Check if user and passwords matches. */
-            if (isset($this->options["users"][$user]) && $this->options["users"][$user] === $pass) {
+            if (isset($this->options["users"][$user]['username']) && $this->options["users"][$user]['password'] === $pass) {
                 $this->next->call();
             } else {
                 $this->app->response->status(401);
