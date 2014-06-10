@@ -8,7 +8,7 @@ namespace Slim\Middleware;
  * Provides HTTP Basic Authentication on given routes
  *
  * @package    Slim
- * @author     Mika Tuupola <tuupola@appelsiini.net>
+ * @author     Charles Denault <charles@charlesdenault.com>
  */
 class HttpBasicAuth extends \Slim\Middleware {
 
