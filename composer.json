@@ -1,5 +1,5 @@
 {
-    "name": "tuupola/slim-basic-auth",
+    "name": "denault/slim-basic-auth",
     "type": "library",
     "description": "HTTP Basic Authentication Middleware for Slim Framework",
     "keywords": ["slim", "middleware", "auth"],
@@ -7,9 +7,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Mika Tuupola",
-            "email": "tuupola@appelsiini.net",
-            "homepage": "http://www.appelsiini.net/"
+            "name": "Charles Denault",
+            "email": "charles@charlesdenault.com"
         }
     ],
     "require": {
