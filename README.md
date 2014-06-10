@@ -1,5 +1,7 @@
 # Basic Auth Middleware for Slim [![Build Status](https://api.travis-ci.org/tuupola/slim-basic-auth.png?branch=master)](https://travis-ci.org/tuupola/slim-basic-auth)
 
+Forked from: https://travis-ci.org/tuupola/slim-basic-auth
+
 This middleware implements HTTP Basic Authentication for Slim Framework.
 
 ## Install
