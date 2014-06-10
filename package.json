@@ -5,7 +5,7 @@
     "type": "git",
     "url": "git@github.com:denault/slim-basic-auth.git"
   },
-  "author": "Charles Denault <charles@charlesdenault.comt>",
+  "author": "Charles Denault <charles@charlesdenault.com>",
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-jshint": "~0.7.0",
