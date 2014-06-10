@@ -41,6 +41,7 @@ class HttpBasicAuth extends \Slim\Middleware {
 
             /* Check if user and passwords matches. */
             if (isset($this->options["users"][$user]['username']) && $this->options["users"][$user]['password'] === $pass) {
+            		$environment['company_id'] = $this->options["users"][$user]['company_id'];
                 $this->next->call();
             } else {
                 $this->app->response->status(401);
